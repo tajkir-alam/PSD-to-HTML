@@ -1,0 +1,299 @@
+/* 
+font-family: 'Lato', sans-serif;
+font-family: 'Vast Shadow', cursive;
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top-info{
+    background-color: #232f3e;
+}
+.top-info-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-fluid .logo{
+    color: white;
+    font-family: 'Vast Shadow', cursive;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 34px;
+}
+.container-fluid .logo:hover{
+    color: white;
+}
+.nav-link .social-icons{
+    color: white;
+    margin-top: 2%;
+}
+.nav-link .social-icons i{
+    letter-spacing: 5px;
+    background-color: #3e526b;
+    padding: 2px;   
+
+}
+
+.menu-bar{
+    margin-top: -20px;
+}
+.menu-bar .navbar-toggler{
+    background-color: #ffae00;
+}
+.menu-bar ul li a{
+    color: white;
+}
+.menu-bar ul li a:hover{
+    color: white;
+}
+
+.menu-bar .btn{
+    background-color: #ffae00;
+    color: white;
+}
+.menu-bar .btn:hover{
+    background-color: #ffae00;
+}
+
+
+header{
+    background: url(img/banner1.jpg) no-repeat center center / cover;
+    padding: 150px 0px;
+}
+header .carousel-item{
+    margin-left: 50px;
+}
+header h1{
+    width: 70%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 55px;
+}
+
+header .btn{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 100px;
+    padding: 10px 50px;
+    background-color: #ffae00;
+    color: white;
+}
+header .btn:hover{
+    background-color: #ffae00;
+}
+header .banner-btn{
+    background-color: #cdd8dc;
+    padding: 50px 10px;
+}
+
+
+.business-section h2{
+    font-family: 'Lato', sans-serif;
+}
+.card{
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.245);
+    border: none;
+    margin-top: 10px;
+}
+.card h5{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 5px 15px;
+}
+.card .card-img-top{
+    padding: 10px;
+    height: 200px;
+}
+
+.business-section .btn{
+    color: #ffae00;
+}
+
+
+
+.contact-section{
+    background: url(img/banner2.jpg) no-repeat center center / cover;
+}
+.contact-section .carousel-inner{
+    padding: 150px 0px;
+    width: 60%;
+}
+.contact-section .carousel-item{
+    background-color: rgba(0, 0, 0, 0.495);
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0px;
+}
+.contact-section h1{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 0px 20px;
+}
+.contact-section .btn{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 100px;
+    padding: 10px 50px;
+    background-color: #ffae00;
+    color: white;
+}
+.contact-section .btn:hover{
+    background-color: #ffae00;
+}
+
+
+.project-section h2{
+    font-family: 'Lato', sans-serif;
+}
+.project-section img{
+    padding: 0;
+    border-radius: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+.inquiry-section{
+    background: url(img/banner3.jpg) no-repeat center center / cover;
+    color: white;
+}
+.inquiry-overlay{
+    padding: 50px 0px;
+}
+.inquiry-overlay form{
+    width: 60%;
+    margin: 0 auto;
+}
+.inquiry-overlay .btn{
+    font-family: 'Vast Shadow', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    border: none;
+    border-radius: 0;
+    padding: 10px 0px;
+    background-color: #ffae00;
+    color: white;
+    width: 30%;
+    margin: 20px auto;
+}
+.inquiry-overlay .btn:hover{
+    background-color: #ffae00;
+    color: white;
+}
+
+
+
+
+
+
+.latest-blog .blog-date{
+    background-color: #ffae00;
+    color: white;
+    padding: 5px 30px;
+    width: 50%;
+    margin: -205px auto;
+    font-size: 14px;
+    font-weight: 600;
+}
+.latest-blog h5{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.latest-blog p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+.card-blog{
+    background-color: #f7f7f7;
+    margin: 15px auto;
+    width: 80%;
+    font-family: 'Lato', sans-serif;
+    margin-top: -20%;
+}
+.card-blog .btn{
+    border: 2.5px solid #ffae00;
+    border-radius: 100px;
+    padding: 0px 25px;
+}
+.card-blog .btn:hover{
+    background-color: transparent;
+    border: 2.5px solid #ffae00;
+}
+
+
+
+footer{
+    box-shadow: 10px 0px 20px 2px black;
+}
+footer .logo{
+    color: #232f3e;
+    font-family: 'Vast Shadow', cursive;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 34px;
+    text-decoration: none;
+}
+footer .logo span{
+    color: #ffae00;
+}
+footer img{
+    height: 100px;
+}
+footer .form-control{
+    height: 3px;
+}
+footer .btn{
+    font-family: 'Vast Shadow', cursive;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+    border-radius: 0;
+    padding: 10px 0px;
+    background-color: #ffae00;
+    color: white;
+    padding: 5px 10px;
+    margin: 20px auto;
+}
+footer .btn:hover{
+    background-color: #ffae00;
+    color: white;
+}
+footer i{
+    letter-spacing: 5px;
+    background-color: #3e526b;
+    padding: 2px; 
+    color: white;  
+    font-size: 1.2rem;
+}
+footer .footer-contact i{
+    color: #232f3e;
+    background-color: transparent;
+}
+footer .footer-contact b{
+    color: #ffae00;
+}
+
+.footer-authority{
+    background-color: #232f3e;
+    color: white;
+}
+.footer-authority .url{
+    color: white;
+    text-decoration: none;
+}
+.footer-authority p,a{
+    padding: 15px 0px;
+}
